@@ -8,8 +8,8 @@
 	export default {
 		data() {
 			return {
-				mac:'00E0162F0005',
-				hex:'',	//设备的hex的信息
+				mac:'00E0162F0005',	//mac地址字符串
+				hex:'',	//经过CRC16-IBM校验以及算法后的值
 				keyResylt:'',	//密钥
 			}
 		},
